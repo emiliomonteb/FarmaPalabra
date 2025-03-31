@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>FarmaPalabra Mejorado: Trasplante Cardíaco</title>
+    <title>FarmaPalabra: Trasplante</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
         
@@ -654,7 +654,7 @@
 <body>
     <div class="game-container">
         <header>
-            <h1>FarmaPalabra Trasplante Cardíaco</h1>
+            <h1>FarmaPalabra Trasplante</h1>
             <h2>Servicio de Farmacia. Hospital U.P. La Fe</h2>
         </header>
         
@@ -1080,7 +1080,7 @@
 
         function showResults() {
             const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '<h2>Resultados del FarmaPalabra: Trasplante Cardíaco</h2>';
+            resultsDiv.innerHTML = '<h2>Resultados del FarmaPalabra: Trasplante</h2>';
             resultsDiv.style.display = 'block';
 
             // Agrupar palabras por estado (correctas e incorrectas)
@@ -1183,7 +1183,7 @@
             pdf.setTextColor(44, 62, 80); // Color primario
             
             // Título
-            pdf.text("Resultados del FarmaPalabra: Trasplante Cardíaco", 105, 15, { align: "center" });
+            pdf.text("Resultados del FarmaPalabra: Trasplante", 105, 15, { align: "center" });
             
             pdf.setFont("helvetica", "italic");
             pdf.setFontSize(12);
@@ -1321,7 +1321,7 @@
                 pdf.setFont("helvetica", "italic");
                 pdf.setFontSize(8);
                 pdf.setTextColor(150, 150, 150);
-                pdf.text(`FarmaPalabra Trasplante Cardíaco - Página ${i} de ${lastPage}`, 105, 290, { align: "center" });
+                pdf.text(`FarmaPalabra Trasplante - Página ${i} de ${lastPage}`, 105, 290, { align: "center" });
             }
             
             // Guardar el PDF
